@@ -1,0 +1,134 @@
+{
+  "main": {
+    "name":"Ankit Bihani",
+    "description":"I am working as fullstack developer for 2.5 years, I have hands on php, laravel, javascript, nodejs, reactjs, python, django",
+    "image":"profilepic.jpg",
+    "bio":"After earning my post graduation degree in MCA from SVIM, I entered in IT world, as associate php developer, to explore my passion for programming and real world problem solving. Now, after the 2.5 years I am working as fullstack developer worked on various technologies and tools.",
+    "contactmessage":"Want to get in touch ? I'd love to hear from you. Here's how you can reach me",
+    "email": "ankitbihani415@gmail.com",
+    "phone": "+91 9174-133-789",
+    "github":"https://github.com/ankitbihani415",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"474, VIP Parasper",
+      "city":"Indore",
+      "state":"Madhya Pradesh",
+      "zip": "4520012"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"resume.pdf",
+    "resumeFileName":"Resume_Ankit_Bihani.pdf",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/ankit.bihani.77",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/ankit-bihani-2b3017112/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/__ankitbihani__",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/ankitbihani415",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Shri Vaishnav Institute of Management",
+        "degree":"Masters in Computer Application",
+        "graduated":"June 2018",
+        "description":""
+      },
+      {
+        "school":"Govt. PG College Narsinghgarh",
+        "degree":"Bachelor in Computer Application",
+        "graduated":"May 2015",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"Yuvasoft Pvt. Ltd.",
+        "title":"Fullstack Developer ",
+        "years":"July 2018 - Present",
+        "website":"http://www.yuvasoftech.com/",
+        "description":"It is service base company, I've joined as php fresher and now became a fullstack developer. I have worked on laravel, wordpress, php, javascript, nodejs, reactjs."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"Nodejs",
+        "level":"80%"
+      },
+      {
+        "name":"Django",
+        "level":"50%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"PHP",
+        "level":"80%"
+      },
+      {
+        "name":"Laravel",
+        "level":"80%"
+      },
+      {
+        "name":"JAVA",
+        "level":"20%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Kromo",
+        "category":"Fintech project",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.ucc.kromo.io"
+      },
+      {
+        "title":"Pokital",
+        "category":"(offline now) A medical reservation project",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.pokital.com"
+      },
+      {
+        "title":"iSalamah",
+        "category":"This project is for maintenance service provider company.Users can buy items as well can create services and ticket will be generate on service, those will be resolved by Technician.",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.isalamah.com"
+      },
+      {
+        "title":"3ndy",
+        "category":"Multivendor ecommerce mobile application. The user needs registration to sell and purchase products. The seller can design his page how it looks when user visits and it needs admin approval. The user can purchase from multiple vendors and the billing will be in single invoice",
+        "image":"resume-website.jpg",
+        "url":"http://www.3ndy.io"
+      },
+      {
+        "title":"Yejji",
+        "category":"This project is like freelancer websites.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.yejji.com"
+      }
+    ]
+  }
+}
