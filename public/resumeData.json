@@ -70,7 +70,37 @@
       {
         "name":"Python",
         "level":"60%"
+      }
+    ],
+    "programming_lang":[
+      {
+        "name":"Python",
+        "level":"60%"
       },
+      {
+        "name":"C",
+        "level":"80%"
+      },
+      {
+        "name":"C++",
+        "level":"50%"
+      },
+      {
+        "name":"JAVA",
+        "level":"20%"
+      }
+    ],
+    "scripting_lang":[
+      {
+        "name":"Javascript",
+        "level":"60%"
+      },
+      {
+        "name":"PHP",
+        "level":"80%"
+      }
+    ],
+    "framework":[
       {
         "name":"Nodejs",
         "level":"80%"
@@ -84,16 +114,22 @@
         "level":"50%"
       },
       {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
         "name":"Laravel",
         "level":"80%"
+      }
+    ],
+    "database":[
+      {
+        "name":"SQL",
+        "level":"80%"
       },
       {
-        "name":"JAVA",
-        "level":"20%"
+        "name":"MongoDB",
+        "level":"50%"
+      },
+      {
+        "name":"Postgres",
+        "level":"50%"
       }
     ]
   },

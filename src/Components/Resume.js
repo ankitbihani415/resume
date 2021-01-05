@@ -35,57 +35,133 @@ class Resume extends Component {
           </li>
         )
       })
+
+      var programmingLang = this.props.data.programming_lang.map((skills)=>{
+        var className = 'bar-expand '+skills.name.toLowerCase();
+        return (
+          <li key={skills.name}>
+            <span style={{width:skills.level, backgroundColor:this.getRandomColor()}}className={className}></span><em>{skills.name}</em>
+          </li>
+        )
+      })
+
+      var scriptingLang = this.props.data.scripting_lang.map((skills)=>{
+        var className = 'bar-expand '+skills.name.toLowerCase();
+        return (
+          <li key={skills.name}>
+            <span style={{width:skills.level, backgroundColor:this.getRandomColor()}}className={className}></span><em>{skills.name}</em>
+          </li>
+        )
+      })
+
+      var framework = this.props.data.framework.map((skills)=>{
+        var className = 'bar-expand '+skills.name.toLowerCase();
+        return (
+          <li key={skills.name}>
+            <span style={{width:skills.level, backgroundColor:this.getRandomColor()}}className={className}></span><em>{skills.name}</em>
+          </li>
+        )
+      })
+
+      var database = this.props.data.database.map((skills)=>{
+        var className = 'bar-expand '+skills.name.toLowerCase();
+        return (
+          <li key={skills.name}>
+            <span style={{width:skills.level, backgroundColor:this.getRandomColor()}}className={className}></span><em>{skills.name}</em>
+          </li>
+        )
+      })
     }
 
     return (
-      <section id="resume">
-
-      
-
-
-      <div className="row work">
-
-         <div className="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-          {work}
-        </div>
-    </div>
-
-    <div className="row education">
-         <div className="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-            <div className="row item">
-               <div className="twelve columns">
-                 {education}
-               </div>
+        <section id="resume">
+            <div className="row work">
+                <div className="three columns header-col">
+                    <h1><span>Work</span></h1>
+                </div>
+                <div className="nine columns main-col">
+                    {work}
+                </div>
             </div>
-         </div>
-      </div>
 
-      <div className="row skill">
+            <div className="row education">
+                <div className="three columns header-col">
+                    <h1><span>Education</span></h1>
+                </div>
+                <div className="nine columns main-col">
+                    <div className="row item">
+                        <div className="twelve columns">
+                            {education}
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
-      </div>
+        {/* <div className="row skill">
+            <div className="three columns header-col">
+                <h1><span>Skills</span></h1>
+            </div>
+            <div className="nine columns main-col">
+                // <p>{skillmessage}</p>
+                <div className="bars">
+                <ul className="skills">
+                    {skills}
+                </ul>
+            </div>
+        </div>
+        </div> */}
+        <div className="row education">
+            <div className="four columns header-col">
+                <h1><span>Programming Languages</span></h1>
+            </div>
+            <div className="eight columns main-col">
+                {/* <p>{skillmessage}</p> */}
+                <div className="bars">
+                    <ul className="skills">
+                        {programmingLang}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div className="row education">
+            <div className="four columns header-col">
+                <h1><span>Scripting Languages</span></h1>
+            </div>
+            <div className="eight columns main-col">
+                {/* <p>{skillmessage}</p> */}
+                <div className="bars">
+                    <ul className="skills">
+                        {scriptingLang}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div className="row education">
+            <div className="three columns header-col">
+                <h1><span>Framework</span></h1>
+            </div>
+            <div className="nine columns main-col">
+                {/* <p>{skillmessage}</p> */}
+                <div className="bars">
+                    <ul className="skills">
+                        {framework}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div className="row skill">
+            <div className="three columns header-col">
+                <h1><span>Database</span></h1>
+            </div>
+            <div className="nine columns main-col">
+                {/* <p>{skillmessage}</p> */}
+                <div className="bars">
+                    <ul className="skills">
+                        {database}
+                    </ul>
+                </div>
+            </div>
+        </div>
    </section>
     );
   }
